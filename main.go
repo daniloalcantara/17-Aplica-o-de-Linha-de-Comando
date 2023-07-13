@@ -15,5 +15,5 @@ func main() {
 	if erro := aplicação.Run(os.Args); erro != nil {
 		log.Fatal(erro)
 	}
-	time.Sleep(50 * time.Second)
+	time.Sleep(51 * time.Second)
 }
